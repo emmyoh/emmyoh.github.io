@@ -3,9 +3,9 @@ markdown: false
 permalink: "assets/css/style.css"
 ---
 .project_icon {
-	width: 8rem;
-	height: 8rem;
-	border-radius: 1.75rem;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 0.75rem;
 	border-color: rgb(28,28,30);
 	display: flex;
 	justify-content: center;
@@ -21,10 +21,19 @@ permalink: "assets/css/style.css"
     margin: 0;
 }
 .dokkoo_icon {
-    font-size: 7rem;
+    font-size: 4.5rem;
     font-weight: bold;
     color: #ad3737;
     font-family: 'UnifrakturCook', cursive;
+    z-index: 1;
+}
+.dokkoo_bg {
+    z-index: 0;
+    width: 1.9rem;
+    height: 1.65rem;
+    margin-top: 0.1rem;
+    background-color: #fff;
+    position: absolute;
 }
 a:hover {
 	text-decoration: none;
@@ -94,22 +103,61 @@ strong {
 	margin: auto;
 }
 p {
-	line-height: 1.25;
+	line-height: 1.333;
+    font-size: 14pt;
 }
 .project_initial {
-    font-size: 5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     opacity: 75%;
     color: rgb(28,28,30);
 }
 .project {
     display: flex;
-    padding-bottom: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
 }
 .project > * {
-    padding: 1rem;
+    margin-right: 1rem;
 }
 .container {
-    width: max-content;
-    height: max-content;
+    width: fit-content;
+    height: fit-content;
+}
+.project_container {
+    background-color: rgb(242,242,247);
+    border-radius: 2rem;
+    align-items: center;
+    float: left;
+    padding: 1rem;
+}
+.project > h4 {
+    width: 15vw;
+}
+@media (max-width: 800px) {
+  .project_icon {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 0.5rem;
+  }
+  .dokkoo_icon {
+    font-size: 2rem;
+  }
+  .project_initial {
+    font-size: 1.5rem;
+  }
+  .project > h4 {
+    font-size: 12pt;
+  }
+  .project {
+      width: 11.5rem;
+  }
+  .project > * {
+    margin-right: 0.75rem;
+  }
+  .dokkoo_bg {
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-bottom: 0;
+  }
 }

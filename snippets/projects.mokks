@@ -1,0 +1,18 @@
+<div class="projects">
+<h2>Projects</h2>
+
+<div class="project_container container">
+
+<div class="row row-cols-auto">
+<div class="col-4 project" onclick="location.href='https://github.com/Dirout/dokkoo'">{% include dokkoo_icon.mokks %} <h4><a href="https://github.com/Dirout/dokkoo">Dokkoo</a> – Data-driven media publication tool intended for use in government, healthcare, and media</h4></div>
+<div class="col-4 project" onclick="location.href='https://github.com/Dirout/oku'">{% include oku_icon.mokks %} <h4><a href="https://github.com/Dirout/oku">Oku</a> – Peer-to-peer web browser with native IPFS support</h4></div>
+<div class="col-4 project" onclick="location.href='https://dirout.github.io/mokk'">{% include initial_icon.mokks color="rgb(88,86,214)" inside="M" %} <h4><a href="https://dirout.github.io/mokk">Mokk</a> – The data format specification for Dokkoo</h4></div>
+</div>
+
+<div class="row row-cols-auto">
+<div class="col-4 project" onclick="location.href='https://github.com/Dirout/larz'">{% include initial_icon.mokks color="rgb(255,149,0)" inside="L" %} <h4><a href="https://github.com/Dirout/larz">larz</a> – Archive tool, library, and format for efficient decompression</h4></div>
+<div class="col-4 project" onclick="location.href='https://github.com/Dirout/odo'">{% include initial_icon.mokks color="rgb(0,122,255)" inside="O" %} <h4><a href="https://github.com/Dirout/odo">odo</a> – Productivity tool for running codebase workflows</h4></div>
+</div>
+
+</div>
+</div>

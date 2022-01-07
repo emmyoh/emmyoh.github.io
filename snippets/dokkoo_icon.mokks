@@ -1,1 +1,1 @@
-{% include project_icon.mokks color="rgb(242,242,247)" inside='<p class="dokkoo_icon">D</p>' %}
+{% include project_icon.mokks color="rgb(216,216,220)" inside='<p class="dokkoo_icon">D</p><div class="dokkoo_bg"></div>' %}

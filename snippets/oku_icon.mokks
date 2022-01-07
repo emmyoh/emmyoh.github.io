@@ -1,1 +1,1 @@
-{% include project_icon.mokks color="rgb(242,242,247)" inside='<img src="https://raw.githubusercontent.com/Dirout/oku/master/branding/logo-filled.svg">' %}
+{% include project_icon.mokks color="rgb(216,216,220)" inside='<img src="https://raw.githubusercontent.com/Dirout/oku/master/branding/logo-filled.svg">' %}
