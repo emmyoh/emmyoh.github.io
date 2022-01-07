@@ -17,7 +17,7 @@
     margin: 0;
 }
 .dokkoo_icon {
-    font-size: 5rem;
+    font-size: 7rem;
     font-weight: bold;
     color: #ad3737;
     font-family: 'UnifrakturCook', cursive;
@@ -100,6 +100,7 @@ p {
 }
 .project {
     display: flex;
+    padding-bottom: 1.25rem;
 }
 .project > * {
     padding: 1rem;
