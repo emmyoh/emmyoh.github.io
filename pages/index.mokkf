@@ -1,0 +1,23 @@
+---
+permalink: "index.html"
+collection: pages
+layout: default
+---
+
+# Projects
+
+<div class="container">
+<div class="row row-cols-4">
+
+<div class="col project">{% include dokkoo_icon.snippet %} <h4><a href="https://github.com/Dirout/dokkoo">Dokkoo</a> – Mokk (Macro Output Key Kit) implementation written in Rust</h4></div><br>
+
+<div class="col project">{% include oku_icon.snippet %} <h4><a href="https://github.com/Dirout/oku">Oku</a> – A hive browser written in Rust</h4></div><br>
+
+<div class="col project">{% include initial_icon.snippet color="rgb(88,86,214)" inside="M" %} <h4><a href="https://dirout.github.io/mokk">Mokk</a> – The Macro Output Key Kit (Mokk) Standard</h4></div><br>
+
+<div class="col project">{% include initial_icon.snippet color="rgb(255,149,0)" inside="L" %} <h4><a href="https://github.com/Dirout/larz">larz</a> – Archive tool for efficient decompression</h4></div><br>
+
+<div class="col project">{% include initial_icon.snippet color="rgb(0,122,255)" inside="O" %} <h4><a href="https://github.com/Dirout/odo">odo</a> – Productivity tool for running codebase workflows</h4></div>
+
+</div>
+</div>
