@@ -6,7 +6,7 @@ layout: default
 # Emil Sayahi
 Hello! I'm Emil, a software developer based in the US.\
 My work primarily has to do with systems programming and web development.\
-See my [resumé/CV](https://dirout.github.io/resume), and check out my [portfolio](https://dirout.github.io) of work.
+See my [résumé/CV](https://dirout.github.io/resume), and check out my [portfolio](https://dirout.github.io) of work.
 
 
 {% include projects.mokks %}
