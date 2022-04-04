@@ -12,6 +12,7 @@
 <div class="row row-cols-auto">
 <div class="col-4 project" onclick="location.href='https://github.com/Dirout/larz'">{% include initial_icon.mokks color="rgb(255,149,0)" inside="L" %} <h4><a href="https://github.com/Dirout/larz">larz</a> – Archive tool, library, and format for efficient decompression</h4></div>
 <div class="col-4 project" onclick="location.href='https://github.com/Dirout/odo'">{% include initial_icon.mokks color="rgb(0,122,255)" inside="O" %} <h4><a href="https://github.com/Dirout/odo">odo</a> – Productivity tool for running codebase workflows</h4></div>
+<div class="col-4 project" onclick="location.href='https://github.com/Dirout/depi'">{% include initial_icon.mokks color="rgb(40,205,65)" inside="O" %} <h4><a href="https://github.com/Dirout/depi">depi</a> – Command-line tool for viewing images</h4></div>
 </div>
 
 </div>
