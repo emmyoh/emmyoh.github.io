@@ -2,7 +2,7 @@
 markdown: false
 permalink: "assets/css/style.css"
 ---
-@-moz-document url-prefix() {
+@supports not (background: paint(squircle)) {
     .project_icon {
         border-radius: 0.75rem;
     }
