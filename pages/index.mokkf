@@ -3,10 +3,18 @@ permalink: "index.html"
 collection: pages
 layout: default
 ---
-# Emil Sayahi
-Hello! I'm Emil, a software developer based in the US.\
-My work primarily has to do with systems programming and web development.\
-See my [résumé/CV](https://dirout.github.io/resume), and check out my [portfolio](https://dirout.github.io) of work.
+<div style="whitespace: nowrap;">
+<h1 style="display: inline-block;">Emil Sayahi</h1> {% include gh_icon.mokks %} {% include linkedin_icon.mokks %}
+</div>
+
+## Hello 👋! I'm Emil, a software developer based in the US.
+Presently, I'm an undergraduate Computer Science student at Miami University, in Oxford, OH, US.\
+My professional experience so far includes:
+- <p>Writing code to create unified views of data, as a data integration intern.</p>
+- <p>Working to automate manual data management processes in an enterprise environment.</p>
+On my own time, I work on open-source projects that I'm passionate about.\
+These projects primarily have to do with systems programming and Web development, and tend to be written in Rust.\
+See my [résumé/CV](https://dirout.github.io/resume), and check out my [portfolio](https://dirout.github.io).
 
 
 {% include projects.mokks %}

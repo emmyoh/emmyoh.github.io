@@ -1,1 +1,1 @@
-<div class="project_icon" style="background-color: {{ include.color }};">{{ include.inside }}</div>
+<div class="project_icon" style="@-moz-document url-prefix() {background-color: {{ include.color }};} --squircle-color: {{ include.color }};">{{ include.inside }}</div>

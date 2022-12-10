@@ -1,0 +1,1 @@
+{% include social_icon.mokks color="rgb(255,255,255)" link='https://github.com/emmyoh' image='https://raw.githubusercontent.com/primer/octicons/44719a3cacd430d487f70d12f6b2a098d155a8e3/icons/mark-github-16.svg' %}

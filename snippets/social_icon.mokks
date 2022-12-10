@@ -1,0 +1,1 @@
+<div class="social_icon" style="background-color: {{ include.color }};"><a href="{{ include.link }}"><img src="{{ include.image }}"></a></div>
