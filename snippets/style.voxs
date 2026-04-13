@@ -1,0 +1,53 @@
+<style>
+    :root {
+        color-scheme: light dark;
+    }
+    .name {
+        font-family: "Atkinson Hyperlegible Next", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 36pt;
+    }
+    p {
+        font-family: "Atkinson Hyperlegible Next", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: light-dark(black, white);
+        font-size: 20pt;
+        font-weight: 450;
+    }
+    a {
+        font-family: "Atkinson Hyperlegible Next", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: light-dark(rgb(0, 0, 200), rgb(255, 255, 100));
+        font-size: 20pt;
+        font-weight: 450;
+        text-decoration: none;
+    }
+    body {
+        background: light-dark(white, black);
+        background-size: 10px 10px;
+        margin: 4em;
+    }
+    @media (prefers-color-scheme: dark) {
+        body {
+            background-image: radial-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 0);
+        }
+    }
+    @media (prefers-color-scheme: light) {
+        body {
+            background-image: radial-gradient(rgba(0, 0, 0, 0.2) 1px, transparent 0);
+        }
+    }
+    {% include shimmer.voxs %}
+    .h-center {
+        display: flex;
+        justify-content: center;
+    }
+    .v-center {
+        display: flex;
+        align-items: center;
+    }
+</style>

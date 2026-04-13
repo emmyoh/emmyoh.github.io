@@ -1,0 +1,19 @@
+---
+---
+<html lang="en">
+    <head>
+        <title>
+            {% if page.data.title %}
+                {{ page.data.title }}
+            {% else %}
+                {{ global.title }}
+            {% endif %}
+        </title>
+        {% include head.voxs %}
+    </head>
+    {% include style.voxs %}
+    <body>
+        {% include navbar.voxs %}
+        {{ layouts | map: "rendered" | first }}
+    </body>
+</html>

@@ -1,0 +1,12 @@
+---
+layout = "default"
+permalink = "index.html"
+---
+
+<div>
+{% markdown %}
+Hello.
+- [LinkedIn →](https://linkedin.com/in/emil-sayahi)
+- [GitHub →](https://github.com/emmyoh)
+{% endmarkdown %}
+</div>
