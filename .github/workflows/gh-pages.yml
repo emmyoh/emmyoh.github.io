@@ -28,9 +28,6 @@ jobs:
             time cargo install --git https://github.com/emmyoh/vox --features="cli"
       - name: Checkout codebase
         uses: actions/checkout@v4
-      - name: Generate stylesheet
-        run: |
-          ./prebuild.sh
       - name: Build site
         run: |
           vox build -d
